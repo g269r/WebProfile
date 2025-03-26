@@ -1,76 +1,8 @@
 /* styles.css */
 
-/* Font-Face Declarations */
-@font-face {
-    font-family: 'AvenirReplacement';
-    src: url('fonts/calibril.ttf') format('truetype');
-    font-weight: 300; /* Calibri Light */
-    font-style: normal;
-    font-display: swap;
-}
+/* No @font-face declarations; rely on local fonts */
 
-@font-face {
-    font-family: 'AvenirReplacement';
-    src: url('fonts/calibrib.ttf') format('truetype');
-    font-weight: 700; /* Calibri Bold */
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'HelveticaReplacement';
-    src: url('fonts/arial.ttf') format('truetype');
-    font-weight: 400; /* Arial Regular */
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'HelveticaReplacement';
-    src: url('fonts/arialbd.ttf') format('truetype');
-    font-weight: 700; /* Arial Bold */
-    font-style: normal;
-    font-display: swap;
-}
-
-/* Update font-family references */
-#comp-m8p56f1m {
-    --rd: 50px 50px 50px 50px;
-    --trans1: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
-    --shd: none;
-    --fnt: normal normal normal 16px/1.5em 'AvenirReplacement', 'HelveticaReplacement', sans-serif; /* Updated font stack */
-    --trans2: color 0.4s ease 0s;
-    --txt: var(--color_50);
-    --brw: 1px;
-    --bg: var(--color_48);
-    --brd: var(--color_49);
-    --bgh: var(--color_51);
-    --brdh: var(--color_52);
-    --txth: var(--color_53);
-    --bgd: 204,204,204;
-    --alpha-bgd: 1;
-    --brdd: 204,204,204;
-    --alpha-brdd: 1;
-    --txtd: 255,255,255;
-    --alpha-txtd: 1;
-    --alpha-txth: 1;
-    --alpha-brdh: 1;
-    --alpha-brd: 1;
-    --alpha-bg: 1;
-    --alpha-bgh: 1;
-    --boxShadowToggleOn-shd: none;
-    --alpha-txt: 1;
-    width: 160px;
-    height: 48px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    #comp-m8p56f1m:not([data-motion-enter="done"]) {
-        opacity: 0;
-    }
-}
-
-/* Rest of your layout styles remain unchanged */
+/* Layout Styles */
 #ksy9x {
     --param_boolean_previewHover: false;
     left: 0;
@@ -413,6 +345,42 @@
 
 #comp-m8p56f1j7 {
     width: 245px;
+}
+
+#comp-m8p56f1m {
+    --rd: 50px 50px 50px 50px;
+    --trans1: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    --shd: none;
+    --fnt: normal normal normal 16px/1.5em Calibri, Arial, sans-serif;
+    --trans2: color 0.4s ease 0s;
+    --txt: var(--color_50);
+    --brw: 1px;
+    --bg: var(--color_48);
+    --brd: var(--color_49);
+    --bgh: var(--color_51);
+    --brdh: var(--color_52);
+    --txth: var(--color_53);
+    --bgd: 204,204,204;
+    --alpha-bgd: 1;
+    --brdd: 204,204,204;
+    --alpha-brdd: 1;
+    --txtd: 255,255,255;
+    --alpha-txtd: 1;
+    --alpha-txth: 1;
+    --alpha-brdh: 1;
+    --alpha-brd: 1;
+    --alpha-bg: 1;
+    --alpha-bgh: 1;
+    --boxShadowToggleOn-shd: none;
+    --alpha-txt: 1;
+    width: 160px;
+    height: 48px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #comp-m8p56f1m:not([data-motion-enter="done"]) {
+        opacity: 0;
+    }
 }
 
 #comp-m8p56f1r1 {
