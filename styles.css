@@ -214,117 +214,47 @@ section {
     font-size: 1em;
 }
 
-/* Blogs Section */
-#blogs {
-    background-color: #5A3F73; /* Purple background */
-    text-align: center;
-}
-
-#blogs h2 {
-    color: #FFFFFF; /* White heading */
-    font-size: 2em;
-    margin-bottom: 30px;
-}
-
-.blogs-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto 20px;
-}
-
-.blog-card {
-    background-color: #A68FC1; /* Light Purple background */
-    padding: 20px;
+/* Blog Post Pages */
+#comp-m8p56f8a1, #comp-m8p56f9a1, #comp-m8p56f10a1 {
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    padding: 80px 20px;
+    background-color: #FFFFFF; /* White background for blog content */
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.blog-card h3 {
-    color: #FFFFFF; /* White subheading */
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.blog-card p {
-    color: #D9E6F2; /* Light Glow text */
-    font-size: 1em;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #1C2526; /* Deep Blue background */
+#comp-m8p56f8b2 h2, #comp-m8p56f9b2 h2, #comp-m8p56f10b2 h2 {
+    color: #5A3F73; /* Purple heading */
+    font-size: 2em;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-#contact h2 {
-    color: #FFFFFF; /* White heading */
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-#contact p {
-    color: #D9E6F2; /* Light Glow text */
+#comp-m8p56f8c3 p, #comp-m8p56f9c3 p, #comp-m8p56f10c3 p {
+    color: #333333; /* Dark gray text for readability on white background */
     font-size: 1em;
-    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
-#contact form {
-    max-width: 500px;
-    margin: 0 auto 20px;
-    text-align: left;
-}
-
-#contact label {
-    color: #FFFFFF; /* White label */
-    font-size: 1em;
-    margin-bottom: 5px;
-    display: block;
-}
-
-#contact input, #contact textarea {
-    width: 100%;
-    padding: 10px;
+#comp-m8p56f8c3 p:first-child, #comp-m8p56f9c3 p:first-child, #comp-m8p56f10c3 p:first-child {
+    font-style: italic;
+    color: #A68FC1; /* Light Purple text */
     margin-bottom: 10px;
-    border: 1px solid #A68FC1; /* Light Purple border */
-    border-radius: 5px;
-    font-family: Calibri, Arial, sans-serif;
-    background-color: #5A3F73; /* Purple background */
-    color: #FFFFFF; /* White text */
 }
 
-#contact button {
-    background-color: #D9E6F2; /* Light Glow button */
-    color: #1C2526; /* Deep Blue text */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
-}
-
-#contact button:hover {
-    background-color: #A68FC1; /* Light Purple on hover */
-}
-
-.contact-info {
+#comp-m8p56f8d4, #comp-m8p56f9d4, #comp-m8p56f10d4 {
     margin-top: 20px;
+    text-align: center;
 }
 
-.contact-info p {
-    color: #D9E6F2; /* Light Glow text */
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-
-.contact-info a {
-    color: #FFFFFF; /* White link */
+#comp-m8p56f8d4 a, #comp-m8p56f9d4 a, #comp-m8p56f10d4 a {
+    color: #5A3F73; /* Purple link */
     text-decoration: none;
 }
 
-.contact-info a:hover {
+#comp-m8p56f8d4 a:hover, #comp-m8p56f9d4 a:hover, #comp-m8p56f10d4 a:hover {
     color: #A68FC1; /* Light Purple on hover */
 }
 
