@@ -1,6 +1,37 @@
 /* styles.css */
 
-/* No @font-face declarations; rely on local fonts */
+/* Font-Face Declarations */
+@font-face {
+    font-family: 'AvenirReplacement';
+    src: url('fonts/calibril.ttf') format('truetype');
+    font-weight: 300; /* Calibri Light */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirReplacement';
+    src: url('fonts/calibrib.ttf') format('truetype');
+    font-weight: 700; /* Calibri Bold */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaReplacement';
+    src: url('fonts/arial.ttf') format('truetype');
+    font-weight: 400; /* Arial Regular */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaReplacement';
+    src: url('fonts/arialbd.ttf') format('truetype');
+    font-weight: 700; /* Arial Bold */
+    font-style: normal;
+    font-display: swap;
+}
 
 /* Layout Styles */
 #ksy9x {
@@ -351,7 +382,7 @@
     --rd: 50px 50px 50px 50px;
     --trans1: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
     --shd: none;
-    --fnt: normal normal normal 16px/1.5em Calibri, Arial, sans-serif;
+    --fnt: normal normal normal 16px/1.5em 'AvenirReplacement', 'HelveticaReplacement', sans-serif;
     --trans2: color 0.4s ease 0s;
     --txt: var(--color_50);
     --brw: 1px;
