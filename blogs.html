@@ -5,10 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gautam Raj - Blogs</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Blog Section Styling */
+        .blog-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .blog-card {
+            display: flex;
+            flex-direction: column;
+            background: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .blog-content {
+            padding: 15px;
+        }
+        .blog-content h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        .blog-content p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+        .blog-content a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .blog-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-   <!-- Navigation Bar -->
+
 <!-- Navigation Bar -->
 <nav id="navbar">
     <div class="nav-container">
@@ -18,52 +63,54 @@
             <a href="about.html" class="nav-link">About</a>
             <a href="experience.html" class="nav-link">Experience</a>
             <a href="projects.html" class="nav-link">Projects</a>
-            <a href="blogs.html" class="nav-link">Blogs</a>
+            <a href="blogs.html" class="nav-link active">Blogs</a>
             <a href="contact.html" class="nav-link">Contact</a>
         </div>
     </div>
 </nav>
 
-    <!-- Blogs Section -->
-    <div id="comp-m8p56f7a1">
-        <div data-mesh-id="comp-m8p56f7a1inlineContent">
-            <div data-mesh-id="comp-m8p56f7a1inlineContent-gridContainer">
-                <div id="comp-m8p56f7b2">
-                    <h2>Blogs</h2>
-                </div>
-            
-                   <div id="comp-m8p56f7c3">
-    <img src="images/blog1.jpeg" alt="My Journey in Tech">
-    <div>
-        <h3><a href="blogs/blog1.html">Running from Math, Only to Crash into It – My CSE Journey</a></h3>
-        <p>A reflection on my experiences as a software developer.</p>
-    </div>
-</div>
-                </div>
-                <div id="comp-m8p56f7d4">
-                    <img src="images/blog2.jpeg" alt="A Shayari on Creativity">
-                    <div>
-                        <h3><a href="blogs/blog2.html">A Shayari on Creativity and a Question for the World</a></h3>
-                        <p>A poetic expression of how creativity fuels my passion, followed by a thought-provoking question for the world.</p>
-                    </div>
-                </div>
-                <div id="comp-m8p56f7e5">
-                    <img src="images/blog3.jpeg" alt="A Story from My Mind">
-                    <div>
-                        <h3><a href="blogs/blog3.html">A Story from My Mind</a></h3>
-                        <p>A creative story that reflects my thoughts and imagination.</p>
-                    </div>
-                </div>
+<!-- Blogs Section -->
+<section>
+    <h2 style="text-align: center; margin-top: 30px;">Blogs</h2>
+    <div class="blog-container">
+        
+        <!-- Blog 1 -->
+        <div class="blog-card">
+            <img src="images/blog1.jpeg" alt="My Journey in Tech">
+            <div class="blog-content">
+                <h3><a href="blogs/blog1.html">Running from Math, Only to Crash into It – My CSE Journey</a></h3>
+                <p>A reflection on my experiences as a software developer.</p>
             </div>
         </div>
-    </div>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="footer-container">
-            <p>© 2025 Gautam Raj. All rights reserved.</p>
-            <p>Contact: <a href="mailto:shree.gautam.raj@gmail.com">shree.gautam.raj@gmail.com</a></p>
+        <!-- Blog 2 -->
+        <div class="blog-card">
+            <img src="images/blog2.jpeg" alt="A Shayari on Creativity">
+            <div class="blog-content">
+                <h3><a href="blogs/blog2.html">A Shayari on Creativity and a Question for the World</a></h3>
+                <p>A poetic expression of creativity, followed by a thought-provoking question.</p>
+            </div>
         </div>
-    </footer>
+
+        <!-- Blog 3 -->
+        <div class="blog-card">
+            <img src="images/blog3.jpeg" alt="A Story from My Mind">
+            <div class="blog-content">
+                <h3><a href="blogs/blog3.html">A Story from My Mind</a></h3>
+                <p>A creative story that reflects my thoughts and imagination.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-container">
+        <p>© 2025 Gautam Raj. All rights reserved.</p>
+        <p>Contact: <a href="mailto:shree.gautam.raj@gmail.com">shree.gautam.raj@gmail.com</a></p>
+    </div>
+</footer>
+
 </body>
 </html>
